@@ -1,8 +1,8 @@
 <template>
-  <div class="p-4 border border-gray-100 shadow-xl">
+  <div class="p-4 mb-4 border border-gray-100 shadow-xl">
     <h2 class="font-bold text-4xl mb-4">{{ title }}</h2>
     <ul class="mb-4">
-      <li><span class="font-semibold">Day</span>: 1</li>
+      <li><span class="font-semibold">Day</span>: {{ day }}</li>
       <li>
         <span class="font-semibold">Link</span>:
         <a class="link" :href="link">{{ link }}</a>

@@ -28,6 +28,9 @@ export default Vue.extend({
 </script>
 
 <style>
+body {
+  @apply bg-gray-100;
+}
 .container {
   margin: 0 auto;
   min-height: 100vh;

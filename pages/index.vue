@@ -3,7 +3,7 @@
     <h1 class="text-5xl text-center font-bold mb-8">100 Days of Code</h1>
     <project-block
       v-for="project in projects"
-      :key="project"
+      :key="project.day"
       :link="project.link"
       :day="project.day"
       :document="project"

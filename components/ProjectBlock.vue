@@ -1,5 +1,5 @@
 <template>
-  <div class="p-4 border">
+  <div class="p-4 border border-gray-100 shadow-xl">
     <h2 class="font-bold text-4xl mb-4">{{ title }}</h2>
     <ul class="mb-4">
       <li><span class="font-semibold">Day</span>: 1</li>
@@ -36,12 +36,15 @@ export default Vue.extend({
 })
 </script>
 
-<style scoped>
+<style>
 .link {
   @apply text-blue-500 underline;
 }
 .link:hover,
 .link:active {
   @apply text-blue-300;
+}
+p {
+  @apply mb-4;
 }
 </style>

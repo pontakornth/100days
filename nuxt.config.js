@@ -4,7 +4,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: '100days',
+    title: '100 Days of Code',
     htmlAttrs: {
       lang: 'en',
     },

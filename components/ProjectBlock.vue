@@ -1,7 +1,14 @@
 <template>
-  <div>
-    <h1>{{ tiitle }}</h1>
-    <a :href="link">{{ link }}</a>
+  <div class="p-4 border">
+    <h2 class="font-bold text-4xl mb-4">{{ title }}</h2>
+    <ul class="mb-4">
+      <li><span class="font-semibold">Day</span>: 1</li>
+      <li>
+        <span class="font-semibold">Link</span>:
+        <a class="link" :href="link">{{ link }}</a>
+      </li>
+    </ul>
+    <nuxt-content :document="document"></nuxt-content>
   </div>
 </template>
 
@@ -17,6 +24,24 @@ export default Vue.extend({
       type: String,
       required: true,
     },
+    day: {
+      type: Number,
+      required: true,
+    },
+    document: {
+      type: Object,
+      required: true,
+    },
   },
 })
 </script>
+
+<style scoped>
+.link {
+  @apply text-blue-500 underline;
+}
+.link:hover,
+.link:active {
+  @apply text-blue-300;
+}
+</style>

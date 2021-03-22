@@ -1,6 +1,6 @@
 ---
 title: Analog Clock
-link: www.google.com
+link: https://codepen.io/pontakornth/pen/KKNjjmm
 day: 1
 ---
 

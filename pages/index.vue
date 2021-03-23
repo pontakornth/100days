@@ -29,7 +29,7 @@ export default Vue.extend({
     ProjectBlock,
   },
   asyncData: async ({ $content }) => {
-    const projects = await $content('/').fetch()
+    const projects = await $content('/').sortBy('day', 'desc').fetch()
     return { projects }
   },
 })

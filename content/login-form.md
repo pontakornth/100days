@@ -10,4 +10,4 @@ the similar things. Stylus is newer than SCSS and LESS so it get less (no pun in
 Tailwind and CSS-in-JS are more popular now. I use WindiCSS, which is based on Tailwind, for this 100 days blog.
 
 
-I hope I will have energy to do another challenge tomorrow.
+I hope I will have energy to do another challenge tomorrow. I need to read more about Responsive design. This login form looks weird for me.

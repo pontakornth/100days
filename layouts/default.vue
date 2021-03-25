@@ -17,6 +17,13 @@ html {
   box-sizing: border-box;
 }
 
+.nuxt-content p {
+  @apply mb-4;
+}
+
+body {
+  @apply bg-gray-100;
+}
 *,
 *::before,
 *::after {

@@ -44,7 +44,4 @@ export default Vue.extend({
 .link:active {
   @apply text-blue-300;
 }
-p {
-  @apply mb-4;
-}
 </style>

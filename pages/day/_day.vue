@@ -5,6 +5,7 @@
     </h1>
     <div class="bg-white border shadow-md rounded p-4">
       <nuxt-content :document="project" />
+      <nuxt-link class="link text-lg font-bold" to="/">Back</nuxt-link>
     </div>
   </main>
 </template>

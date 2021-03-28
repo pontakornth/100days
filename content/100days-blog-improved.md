@@ -7,6 +7,7 @@ I don't have much enegy just like the yesterday. I intended to do a coin flip wi
 it turns out to be more complicated than I think. I think I can finish it tomorrow or later.
 Today, I have a meeting and the application just freeze. I had no idea that it's frozen and I
 just wait people to answer my question. 
+<!--more-->
 
 
 Today I implement the navigation of this blog. There is no nested posts so I don't need to worry about nesting. To fetch in TypeScript, I use a bit of hack like this.

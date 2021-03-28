@@ -6,6 +6,7 @@ day: 6
 This time, I use React because I want to know about managing data in React. It's difficult.
 The styling methods is `twin.macro` and `goober`. I had to argue with TypeScript about typing.
 But, I think it worths knowing. Because, I will need to deal with custome type in the future.
+<!--more-->
 
 
 I don't like about the code and the design. I am a terrible designer. It looks kinda dumb.

@@ -5,6 +5,7 @@ day: 2
 ---
 Since 100 projects would flood the Contentful blog. So, I decided to do another small blog only for this job. I used Gatsby for the main blog but I used Nuxt content for this blog. Because I want to try new stack. Gatsby becomes difficult to maintain for a simple blog. I need to write
 GraphQL query just to query and display content. I do like GraphQL but it's overkill for me.
+<!--more-->
 
 
 I use Source Sans Pro font for this blog at the time I write this post. It's really strange that 

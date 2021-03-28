@@ -6,7 +6,7 @@ day: 7
 On yesterday, I wrote a messy code and have lots of duplicate logic and style.
 So, I need to refactor to seperate complex components into a lots of simple components.
 For example, a big form can be refactor like this.
-
+<!--more-->
 This is the old code.
 
 ```tsx

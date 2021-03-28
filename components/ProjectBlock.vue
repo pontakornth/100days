@@ -1,7 +1,9 @@
 <template>
   <div class="p-4 mb-6 bg-white border border-gray-100 shadow-xl">
     <h2 class="font-bold text-4xl mb-4 underline">
-      <nuxt-link class="hover:text-blue-600" :to="`day/${day}`">{{ title }}</nuxt-link>
+      <nuxt-link class="hover:text-blue-600" :to="`day/${day}`">{{
+        title
+      }}</nuxt-link>
     </h2>
     <ul class="mb-4">
       <li><span class="font-semibold">Day</span>: {{ day }}</li>
@@ -10,7 +12,9 @@
         <a class="link" :href="link">{{ link }}</a>
       </li>
     </ul>
-    <nuxt-content :document="document"></nuxt-content>
+    <p class="nuxt-content">
+      {{ document.description }}
+    </p>
   </div>
 </template>
 

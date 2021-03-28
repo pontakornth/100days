@@ -14,6 +14,9 @@
     </ul>
     <p class="nuxt-content">
       {{ document.description }}
+      <span class="text-gray-500 underline"
+        ><nuxt-link :to="`day/${day}`">...more</nuxt-link></span
+      >
     </p>
   </div>
 </template>

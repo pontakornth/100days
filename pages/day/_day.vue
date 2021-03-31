@@ -5,6 +5,13 @@
       {{ project.title }}
     </h1>
     <div class="bg-white border shadow-md rounded p-4">
+      <ul class="mb-4">
+        <li><span class="font-semibold">Day</span>: {{ project.day }}</li>
+        <li>
+          <span class="font-semibold">Link</span>:
+          <a class="link" :href="link">{{ project.link }}</a>
+        </li>
+      </ul>
       <nuxt-content :document="project" />
       <nuxt-link class="link text-lg font-bold" to="/">Back</nuxt-link>
     </div>

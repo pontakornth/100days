@@ -1,5 +1,6 @@
 <template>
   <main class="container mx-auto p-8">
+    <SEO :title="project.title" />
     <h1 class="text-5xl text-center font-bold mb-8 mx-auto">
       {{ project.title }}
     </h1>
@@ -13,7 +14,11 @@
 <script lang="ts">
 import { IContentDocument } from '@nuxt/content/types/content'
 import Vue from 'vue'
+import SEO from '../../components/SEO.vue'
 export default Vue.extend({
+  components: {
+    SEO,
+  },
   async asyncData({ route, $content }) {
     const day = Number.parseInt(route.params.day)
     const project = ((await $content('/')

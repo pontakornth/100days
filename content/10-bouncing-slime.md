@@ -5,7 +5,7 @@ day: 10
 ---
 Today, I need to study a lot so I don't really have much time for coding. Coding while
 studying is not really a good option anyway because it's distracting. I think a small 
-animation would be better than nothing.
+animation would be better than nothing.<!--more-->
 
 
 The slime is built using CSS height and width. The positioning is important too.

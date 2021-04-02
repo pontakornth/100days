@@ -8,6 +8,10 @@
     <ul class="mb-4">
       <li><span class="font-semibold">Day</span>: {{ day }}</li>
       <li>
+        <span class="font-semibold">Date</span>:
+        {{ createdAt }}
+      </li>
+      <li>
         <span class="font-semibold">Link</span>:
         <a class="link" :href="link">{{ link }}</a>
       </li>
@@ -40,6 +44,12 @@ export default Vue.extend({
     document: {
       type: Object,
       required: true,
+    },
+  },
+  computed: {
+    createdAt() {
+      const createdDate = new Date((this as any).document.createdAt)
+      return createdDate.toDateString()
     },
   },
 })

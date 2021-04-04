@@ -6,7 +6,7 @@ link: https://github.com/pontakornth/random-name-selector
 Yesterday, I was on vacation. Even I took my computer with me, there is not enough
 time for 100 days challenge. So, I do it today. This project is similar to the
 wheel of names that my professor use for asking question randomly. I want to implement
-a subset of its features.
+a subset of its features.<!--more-->
 
 
 Because I am a terrible designer, I have to make it as minimal as possible. I move the

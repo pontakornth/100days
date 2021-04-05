@@ -2,6 +2,7 @@
 title: Vue + SWR => Meow CATalog
 day: 9
 link: https://github.com/pontakornth/meow-catalog
+createdAt: 2021-03-31
 ---
 I haven't played with API lately. The last project before this happen is the overengineered dog.
 It is an overengineered website just to display images of dogs. This project has different goal

@@ -2,6 +2,7 @@
 title: Expense Tracker (Refactor and Functionality)
 link: https://github.com/pontakornth/expense-tracker
 day: 7
+createdAt: 2021-03-28
 ---
 On yesterday, I wrote a messy code and have lots of duplicate logic and style.
 So, I need to refactor to seperate complex components into a lots of simple components.

@@ -2,6 +2,7 @@
 title: Bouncing Slime
 link: https://codepen.io/pontakornth/pen/VwPpvyx
 day: 10
+createdAt: 2021-04-01
 ---
 Today, I need to study a lot so I don't really have much time for coding. Coding while
 studying is not really a good option anyway because it's distracting. I think a small 

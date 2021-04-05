@@ -2,6 +2,7 @@
 title: Expense Tracker (Layout)
 link: https://github.com/pontakornth/expense-tracker
 day: 6
+createdAt: 2021-03-27
 ---
 This time, I use React because I want to know about managing data in React. It's difficult.
 The styling methods is `twin.macro` and `goober`. I had to argue with TypeScript about typing.

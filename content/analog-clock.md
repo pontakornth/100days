@@ -2,6 +2,7 @@
 title: Analog Clock
 link: https://codepen.io/pontakornth/pen/KKNjjmm
 day: 1
+createdAt: 2021-03-21
 ---
 Well, I already written a analog clock using Python in programming class before.
 But, I think as a frontend developer. I should write it in Javascript too.

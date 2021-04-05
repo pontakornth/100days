@@ -1,5 +1,5 @@
 ---
-title: Random Name Selector (Layout)
+title: Random Name Selector (Functionality)
 day: 13
 link: https://github.com/pontakornth/random-name-selector
 createdAt: 2021-04-05

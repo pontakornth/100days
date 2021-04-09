@@ -2,6 +2,7 @@
 title: Mini Chat App (Setup and Test)
 day: 16
 link: https://github.com/pontakornth/mini-chat-app
+createdAt: 2021-04-09
 ---
 After I already partially designed the chat app, I begin to work on this project. I use Next.js
 because I want to learn about Recoil state management. The state is going to be used across 

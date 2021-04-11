@@ -9,7 +9,7 @@
         <li><span class="font-semibold">Day</span>: {{ project.day }}</li>
         <li>
           <span class="font-semibold">Link</span>:
-          <a class="link" :href="link">{{ project.link }}</a>
+          <a class="link" :href="project.link">{{ project.link }}</a>
         </li>
       </ul>
       <nuxt-content :document="project" />

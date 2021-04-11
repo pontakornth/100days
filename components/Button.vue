@@ -1,6 +1,7 @@
 <template>
   <nuxt-link
     :to="to"
+    exact
     class="p-4 rounded bg-white hover:bg-gray-200 font-bold shadow-md"
   >
     <slot></slot>

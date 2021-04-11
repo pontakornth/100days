@@ -1,7 +1,7 @@
 <template>
   <div class="p-4 mb-6 bg-white border border-gray-100 shadow-xl">
     <h2 class="font-bold text-4xl mb-4 underline">
-      <nuxt-link class="hover:text-blue-600" :to="`day/${day}`">{{
+      <nuxt-link exact class="hover:text-blue-600" :to="`/day/${day}`">{{
         title
       }}</nuxt-link>
     </h2>
@@ -19,7 +19,7 @@
     <p class="nuxt-content">
       {{ document.description }}
       <span class="text-gray-500 underline"
-        ><nuxt-link :to="`day/${day}`">...more</nuxt-link></span
+        ><nuxt-link :to="`/day/${day}`">...more</nuxt-link></span
       >
     </p>
   </div>

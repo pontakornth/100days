@@ -10,11 +10,12 @@ export default Vue.extend({
   components: {
     PageTemplate,
   },
-  middleware({ redirect }): void {
-    return redirect(301, '/page/1')
-  },
   asyncData: async ({ $content }) => {
-    const projects = await $content('/').sortBy('day', 'desc').fetch()
+    const projects = await $content('/')
+      .sortBy('day', 'desc')
+      .skip(0)
+      .limit(5)
+      .fetch()
     return { projects }
   },
 })

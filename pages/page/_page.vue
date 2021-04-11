@@ -11,8 +11,8 @@ import Vue from 'vue'
 import PageTemplate from '~/components/PageTemplate.vue'
 export default Vue.extend({
   components: { PageTemplate },
-  asyncData: async ({ $content, params, error }) => {
-    const currentPage = parseInt(params.page)
+  asyncData: async ({ $content, route, error }) => {
+    const currentPage = parseInt(route.params.page)
     const perPage = 5
     const allProjects = await $content('/').fetch()
     const totalProjects = allProjects.length

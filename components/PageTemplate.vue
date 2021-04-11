@@ -17,21 +17,35 @@
       :document="project"
       :title="project.title"
     />
+    <div class="flex justify-between py-4">
+      <Button v-if="page > 1" :to="`/page/${page - 1}`"> Previous </Button>
+      <Button v-if="page !== lastPage" :to="`/page/${page + 1}`"> Next </Button>
+    </div>
   </main>
 </template>
 
 <script lang="ts">
 import Vue from 'vue'
 import ProjectBlock from '../components/ProjectBlock.vue'
+import Button from '../components/Button.vue'
 
 export default Vue.extend({
   components: {
     ProjectBlock,
+    Button,
   },
   props: {
     projects: {
       type: Array,
       required: true,
+    },
+    page: {
+      type: Number,
+      required: true,
+    },
+    lastPage: {
+      type: Number,
+      default: 999,
     },
   },
 })

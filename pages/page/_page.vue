@@ -1,5 +1,9 @@
 <template>
-  <page-template :projects="paginatedProjects" />
+  <page-template
+    :projects="paginatedProjects"
+    :page="currentPage"
+    :last-page="lastPage"
+  />
 </template>
 
 <script lang="ts">
@@ -35,7 +39,7 @@ export default Vue.extend({
       return error({ statusCode: 404, message: 'No projects found!' })
     }
 
-    return { paginatedProjects }
+    return { paginatedProjects, currentPage, lastPage }
   },
 })
 </script>

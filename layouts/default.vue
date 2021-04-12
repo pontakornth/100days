@@ -20,6 +20,13 @@ html {
 .nuxt-content p {
   @apply mb-4;
 }
+.nuxt-content a {
+  @apply underline text-blue-500;
+  &:hover,
+  &:active {
+    @apply text-blue-300;
+  }
+}
 
 body {
   @apply bg-gray-100;

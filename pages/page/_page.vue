@@ -18,7 +18,8 @@ export default Vue.extend({
     const totalProjects = allProjects.length
 
     const lastPage = Math.ceil(totalProjects / perPage)
-    const lastPageCount = totalProjects % perPage
+    let lastPageCount = totalProjects % perPage
+    lastPageCount = lastPageCount === 0 ? perPage : lastPageCount
     const skipProject = () => {
       switch (currentPage) {
         case 1:

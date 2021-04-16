@@ -9,7 +9,7 @@ GraphQL query just to query and display content. I do like GraphQL but it's over
 <!--more-->
 
 
-I use Source Sans Pro font for this blog at the time I write this post. It's really strange that 
+I use Barlow font for this blog at the time I write this post. It's really strange that 
 Pro font is actually free. The another choice would be Bai Jamjuree. I think it's better for Thai content because it looks beautiful. The font is one of the most important things about web design. If you use the default font for a minimal website, it will look incomplete.
 
 

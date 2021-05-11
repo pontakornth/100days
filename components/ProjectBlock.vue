@@ -1,5 +1,5 @@
 <template>
-  <div class="p-4 mb-6 bg-white border border-gray-100 shadow-xl">
+  <div class="p-4 mb-6 bg-white border border-gray-100 shadow-xl rounded-3xl">
     <h2 class="font-bold text-4xl mb-4 underline">
       <nuxt-link exact class="hover:text-blue-600" :to="`/day/${day}`">{{
         title

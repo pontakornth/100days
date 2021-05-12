@@ -4,7 +4,7 @@
     <h1 class="text-5xl text-center font-bold mb-8 mx-auto">
       {{ project.title }}
     </h1>
-    <div class="bg-white border shadow-md rounded p-4">
+    <div class="bg-white border shadow-md rounded-3xl p-4">
       <ul class="mb-4">
         <li><span class="font-semibold">Day</span>: {{ project.day }}</li>
         <li>

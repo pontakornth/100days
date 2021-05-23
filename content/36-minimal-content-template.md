@@ -7,7 +7,7 @@ createdAt: 2021-05-23
 Just like I mentioned in previous post, I am "dead inside". I lack motivation to do the project. I need
 both discipline and motivation. If I lack the former, it will never get published. If I lack the latter,
 I will make low-effort project just for the sake or completing. I have heard about deliberate practice.
-It is interesting. I think it may help me a bit in coding.
+It is interesting. I think it may help me a bit in coding.<!--more-->
 
 
 This project is more like a template for digital gardening. It likes a blog but no strict chronological 
